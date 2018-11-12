@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/WovenCoast/UpdateBot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "nodemailer": "^4.6.8"
   }
 }
