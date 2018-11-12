@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const cfg = require('./config.json');
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -7,8 +8,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
-    msg.reply('pong');
+    msg.reply('Pong!');
   }
 });
 
-client.login('token');
+client.login(cfg.token);
