@@ -7,9 +7,10 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.channel.send('Pong!');
-  }
+  if (msg.author.bot || msg.content.startsWith(cfg.prefix)) return;
+  const args = msg.content.slice(cfg.prefix.length).split(/ +/);
+  const command = args.shift().toLowerCase();
+  console.log(args);
 });
 
 client.login(cfg.token);
