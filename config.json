@@ -2,5 +2,11 @@
 	"token": "NTEwODQ0NjkwMTcwNTExMzcx.DstBMg.vMhOdDTMuIHgC96YodX7PwWQZ5c",
 	"prefix": ".",
 	"pass": ["a", "h", "c", "f", "d", "e", "g", "b", "9", "1", "5"],
-	"prefixLength": 1
+	"prefixLength": 1,
+	"email": ["wovencoast14782@gmail.com"],
+	"help": {"embed":{
+		"title": "Prefix",
+		"color": "0x2471a3",
+		"description": "The default prefix is '.' and you can change this using .prefix [newprefix] \nIf you forget your prefix you can type in 'prefix' with no prefix and it will send you the prefix\n\nThis tutorial will assume you are using the defult prefix \n\n.ping will let you now if the bot is active or not \n.help will show this message on the DM of whoever sent it\n.email will get the email that the messages are being sent to\n.email [newemail] will set the new email as the email to send status \n\nTest out those commands here!"
+	}}
 }

@@ -18,6 +18,7 @@
   "homepage": "https://github.com/WovenCoast/UpdateBot#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
+    "enmap": "^4.3.3",
     "nodemailer": "^4.6.8"
   }
 }
